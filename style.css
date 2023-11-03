@@ -1,0 +1,188 @@
+body{
+    background-color: rgba(223, 236, 248, 0.488);
+    font-family: sans-serif;
+}
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 550px;
+    height: 680px;
+    border-radius: 10px;
+    background-color: white;
+    padding: 20px;
+}
+
+.container .top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top .not{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 170px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.top .not #not{
+    padding: 3px 10px 2px 10px;
+    background-color: rgb(11, 11, 119);
+    border-radius: 4px;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.top #p{
+    color: rgb(121, 132, 142);
+    font-size: 14px;
+}
+
+.container .wrapper{
+    height: 70px;
+    border-radius: 7px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.container .wrapper p{
+    line-height: 20px;
+    color: rgba(109, 114, 118, 0.844);
+    font-size: 15px;
+    position: relative;
+}
+
+.wrapper #time{
+    color: rgba(128, 133, 136, 0.774);
+    font-size: 14px;
+}
+
+.wrapper #name{
+    color: black;
+    margin-right: 5px;
+}
+
+.wrapper #post{
+    color: rgba(0, 0, 0, 0.63);
+    font-weight:bold ;
+    font-size: 14px;
+}
+
+#chess{
+    color: rgb(42, 42, 158);
+    font-weight: bold;
+    font-size: 14px;
+}
+
+p .dot{
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background-color: orangered;
+    position: absolute;
+    right: -13px;
+    top: 7px;
+}
+
+.rizky.wrapper{
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px auto;
+}
+
+.rizk-wrap{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+}
+
+.rizky.wrapper .info{
+    padding: 20px 15px 20px 15px;
+    width: 460px;
+    border: 1px solid rgba(0, 0, 0, 0.192);
+    border-radius: 4px;
+    margin-left: 10px;
+    color: rgba(0, 0, 0, 0.682);
+    font-size: 15px;
+}
+
+.kimberly.wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.kimberly.wrapper .kim{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.kimberly.wrapper .img-comment{
+    border-radius: 5px;
+    width: 40px;
+    height: 40px;
+    background-image: url(IMG/image-chess.webp);
+    background-size: cover;
+}
+
+.nathan.wrapper{
+    margin: 2px 0px;
+}
+
+.nathan.wrapper p{
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.mark,.angela,
+.jacobe{
+    background-color: rgba(4, 115, 213, 0.032);
+    margin-top: 10px;
+}
+
+.img-1,.img-2,
+.img-3,.img-4,
+.img-5,.img-6,
+.img-7{
+    width: 35px;
+    height: 35px;
+    margin: 0px 10px;
+    background-size: cover;
+}
+
+.img-1{
+    width: 40px;
+    height: 40px;
+    background-image: url(IMG/avatar-mark-webber.webp);
+}
+.img-2{
+    background-image: url(IMG/avatar-angela-gray.webp);
+}
+.img-3{
+    background-image: url(IMG/avatar-jacob-thompson.webp);
+}
+.img-4{
+    background-image: url(IMG/avatar-rizky-hasanuddin.webp);
+}
+.img-5{
+    background-image: url(IMG/avatar-kimberly-smith.webp);
+}
+.img-6{
+    background-image: url(IMG/avatar-nathan-peterson.webp);
+    background-position: center;
+    width: 45px;
+}
+.img-7{
+    background-image: url(IMG/avatar-anna-kim.webp);
+}
